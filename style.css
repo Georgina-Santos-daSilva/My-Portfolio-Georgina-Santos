@@ -90,8 +90,13 @@ p {
   text-decoration: underline;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   h1 {
-    font-size: 60x;
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 32px;
   }
 }
